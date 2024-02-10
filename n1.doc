@@ -1,0 +1,576 @@
+Traditional approach , there are 5 steps involved in development 
+    -> Initiation 
+    -> planning and design 
+    -> execution and construction 
+    -> monitoring and controlling systems 
+    -> Completion 
+
+In Traditional project managment we used a method called as WaterFall 
+-> Genreal steps involved in a project Completion are 
+    -> Requirements 
+    -> design 
+    -> development
+    -> integration 
+    -> Testing 
+
+-> So WaterFall technique says that , We must first complete 1st step completely in order to start   the next step . 
+-> Following are the limitations  : 
+        -> Predictive and not adaptive : Here entire project is planned and Defined in the beginning . Lack of flexibility(especially in dynamic enviornment ) is a issue any changes in the project in later time is not easily accomodated . 
+
+        -> Dont easily accomodated rate of change : this model assumes Requirements are stable and known at the beginning of the project . however Requirements dynamics can change due to customer needs or external factors 
+
+        ->Elasped Calender time dosent equate to percent complete : In this method , progress of a project is judged on time Elasped rather than tangible deliverables . Creates a false sense of progress 
+        Example: If you're developing a software product and have completed the analysis and design phases, it might seem like you're making progress. However, until you have a working prototype or functional code, you can't be sure how much of the project is truly complete.
+
+Overall Analogy:
+Think of the Waterfall model like planning a cross-country road trip with a fixed itinerary. You've mapped out all your stops and routes in advance. If, during the trip, you discover a more interesting place to visit or a shortcut, it's challenging to deviate from the original plan. You're committed to the predefined route, even if it might not be the most efficient or enjoyable path.
+
+In contrast, Agile methodologies, like Scrum, are more like a GPS navigation system. You have a destination, but the route is flexible. You can adjust based on real-time conditions, take detours if needed, and continuously improve your journey based on feedback. This adaptability is particularly valuable in industries, like software development, where change is frequent and unpredictable.
+
+
+DIVING INTO AGILE  : 
+
+The Agile Manifesto, a foundational document for Agile methodologies, outlines the values and principles that guide Agile development. The manifesto prioritizes the following values:
+
+AGILE VALUES : 
+1. Individual and interactions over processes and tools : It emphasizes the importance of people and their communication . While processes and tools are necessary , the primary focus must be on developers communicating effectively to acheive the project goal. 
+
+2. Working software over documentation : Instead of providing extensive documentation agile prefer in providing working and functional software applications .This dosent mean documentation is ignored but emphasis is on the practical outcome 
+
+3. Customer Collaboration over contract negotiation : Agile encourages continuous collaboration with customers throughout the project. The emphasis is on building a partnership with the customer rather than relying heavily on rigid contracts negotiated at the project's start.
+
+4. Responding to Change over Following a Plan :  Agile accpets that change is inevitable and it is designed in a way that it is able to respond to change instead of following a predefined plan strictly .This allows adaptions based on feedbacks and evolving Requirements. 
+
+-> HOW SCRUM WORKS: 
+Let's consider a scenario: You are developing a mobile application for a client.
+
+Waterfall Approach:
+You would start by gathering detailed requirements and creating a comprehensive design document. The development phase follows, and once it's complete, testing begins. Finally, after all testing is done, the product is delivered to the client.
+
+Agile Approach (Scrum):
+You might start with a basic understanding of the requirements but not all details. You would deliver a small, functional piece of the application (a potentially shippable increment) at the end of a short time frame (a sprint). The client provides feedback, and adjustments are made for the next sprint. This process repeats, allowing for continuous collaboration and adaptation.
+
+12 AGILE PRINCIPLES : 
+1.Satisfy the Customer Through Early and Continuous Delivery of Valuable Software:
+    ->Delivering working software frequently ensures that customers receive value early and allows for ongoing feedback and adaptation.
+    ->In Simple Terms: Give the customer something useful as early as possible, and keep giving them valuable updates regularly.
+    ->Example: Imagine you ordered a pizza. Instead of waiting for the entire pizza to be ready, the restaurant gives you a slice as soon as it's done. Then, they keep bringing you more slices until you're satisfied. You get to enjoy the pizza sooner, and if you want any changes (like more cheese), they can do it for the next slice.
+    
+2.Welcome Changing Requirements, Even Late in Development: 
+    ->Agile processes harness change for the customer's competitive advantage, even late in development. Changes in requirements are seen as a natural part of the development process.
+    ->n Simple Terms: It's okay if the plan changes during the project. We can adapt and make those changes work.
+
+3.Deliver Working Software Frequently, with a Preference for the Shortest Timescale:
+    ->The primary measure of progress is delivering functional software to the customer at regular intervals, emphasizing shorter timescales for delivery.
+    ->In Simple Terms: Show what you've built to the customer often, and try to do it quickly.
+    ->Example: If you're drawing a picture, instead of finishing the entire drawing before showing it, you might show the customer the outline first. Then, you add details, colors, and show them each step along the way. This way, they see progress faster, and you can make changes based on their feedback early on.
+
+4.Collaboration Between Business People and Developers Throughout the Project:
+    ->Continuous collaboration ensures that the development team understands the business goals and can adapt to changes effectively.
+
+5.Build Projects Around Motivated Individuals. Give Them the Environment and Support They Need, and Trust Them to Get the Job Done:
+    ->Motivated individuals are the key to successful projects. Agile promotes creating an environment where team members are empowered and motivated to excel.
+
+6.Use Face-to-Face Communication When Possible:
+    ->Face-to-face communication is the most efficient and effective way to convey information within a development team.
+
+7.Working Software is the Primary Measure of Progress:
+    ->The ultimate goal is to deliver a working product. Progress is measured by the functionality that is complete and ready for use.
+
+8.Maintain a Sustainable Pace of Work for the Team:
+    ->Agile processes promote a sustainable work pace to ensure the long-term productivity and happiness of team members.
+
+9.Continuous Attention to Technical Excellence and Good Design:
+    ->Technical excellence and good design enhance agility. A focus on these aspects ensures the maintainability and adaptability of the software.
+
+10.Simplicity—the Art of Maximizing the Amount of Work Not Done—is Essential:
+    ->Simplicity is valued to avoid unnecessary work and complexity, ensuring that effort is directed towards delivering valuable features.
+
+11.Self-Organizing Teams Make the Best Architectures, Designs, and Decisions:
+    ->Teams that are self-organizing have the flexibility to make decisions at the level closest to where the information is available, leading to more effective and timely choices.
+
+12.At Regular Intervals, the Team Reflects on How to Become More Effective, Then Tunes and Adjusts Its Behavior Accordingly:
+    ->Regular retrospectives allow the team to reflect on its processes and performance, fostering a culture of continuous improvement.
+
+DIVING INTO SCRUM 
+Benefits of Scrum 
+    -> Adaptability
+    -> Transparency
+    -> Continuous feedback
+    -> Continuous Improvement
+    -> Continuous Delivery of Value
+    -> Sustainable Pace
+    -> Early Delivery of High Value
+    -> Efficient Development Process
+    -> Motivation
+    -> Faster Problem Resolution
+    -> Effective Deliverables
+    -> Customer Centric
+    -> High Trust Environment
+    -> Collective Ownership
+    -> High Velocity
+    -> Innovative Environment
+SCRUM  Scalability :->
+    1.  Effective Scrum Team Size (6-10 Members):
+        In Scrum, the ideal team size is typically recommended to be between 6 to 10 members. This size is considered optimal for effective collaboration and communication.
+    2.Scrums of Scrums for Scalability:
+        As projects scale up in size and complexity, a single Scrum team may not be sufficient. The concept of "Scrums of Scrums" comes into play to address scalability. Here's how it works:
+
+        Scrum of Scrums: In larger projects, multiple Scrum teams may exist. Each team has its own Scrum meeting, and representatives from each team attend a higher-level meeting called the "Scrum of Scrums."
+
+        Communication at Scale: The Scrum of Scrums meeting is a forum where representatives share updates on the progress of their individual teams. It facilitates coordination, highlights dependencies, and ensures that the overall project is on track.
+
+        Problem Resolution: The meeting provides a platform to discuss and address cross-team issues, ensuring that impediments are identified and resolved at a higher level.
+
+    3. Use of a Scrum Guidance Body:
+        A Scrum Guidance Body is a concept that involves having a central group or body that provides guidance and support for Scrum teams. Here's how it functions:
+
+        Guidance and Support: The Scrum Guidance Body is responsible for providing guidance on best practices, helping teams overcome challenges, and ensuring that Scrum principles are consistently applied across the organization.
+
+        Continuous Improvement: It may play a role in continuous improvement initiatives, helping teams identify areas for enhancement and sharing lessons learned.
+
+        Standardization: The body may establish and communicate standardized processes and practices, ensuring a consistent approach to Scrum implementation.
+
+        Facilitation: It can serve as a facilitator for collaboration and knowledge-sharing among Scrum teams, fostering a sense of community and shared learning.
+
+Scrum Principles
+1.Empirical Process Control
+
+Transparency:
+Meaning: Everyone can see what's happening in the project.
+Example: Imagine a glass kitchen where everyone can watch the chefs and see the cooking process.
+
+Inspection:
+Meaning: Regularly check how things are going to catch issues early.
+Example: Just like tasting the food while cooking to make sure it's turning out as expected.
+
+Adaptation:
+Meaning: Change and improve based on what you've observed.
+Example: If the food needs more spice, add it. If a project is not on track, adjust the plan.
+
+Quality:
+Meaning: Make sure the project or product is good and fix problems quickly.
+Example: Fix a mistake in a dish right away instead of serving it with errors.
+
+Risk:
+Meaning: Identify and manage potential problems early.
+Example: Like checking the weather before a trip to avoid getting caught in a storm.
+
+Change:
+Meaning: Be open to adjusting plans based on new information or requests.
+Example: If friends want a different movie, be flexible and choose something everyone likes.
+
+Expert Guidance:
+Meaning: Seek advice from someone who knows more.
+Example: Ask a seasoned chef for help when facing a cooking challenge.
+
+2. Self-Organization
+
+Self-Organization:
+Explanation: In Scrum, self-organization means that team members actively take responsibility for their work. They decide how to accomplish tasks and organize themselves for maximum efficiency.
+
+Servant Leadership:
+Explanation: Scrum promotes a leadership approach known as "servant leadership." The Scrum Master, instead of being a traditional manager, serves the team by coaching, facilitating, and protecting them from external disruptions.
+Example: Picture a coach in sports who supports and guides the team, ensures they have what they need, and removes obstacles, rather than giving direct orders.
+
+Creating Team Buy-In and Shared Ownership:
+Meaning: Scrum aims to foster a sense of ownership and commitment among team members. When the team is involved in decision-making and feels a sense of ownership, they are more likely to be motivated and dedicated.
+
+Motivation Driving Improved Performance:
+Meaning: Scrum seeks to motivate team members by giving them autonomy and creating an environment where they feel valued. Motivated individuals are likely to perform better and be more engaged in their work.
+
+Innovative, Creative Environment Conducive to Growth:
+Meaning: Scrum aims to create an environment that encourages innovation and creativity. This not only enhances the quality of work but also provides opportunities for individual and team growth.
+
+3.Collaboration
+
+The principle of collaboration in Scrum emphasizes the idea that individuals working together can achieve outcomes that are greater than the sum of their individual efforts
+
+Awareness:
+
+Meaning: Team members have visibility into each other's work.
+Example: Like working on a puzzle where everyone knows what piece others are handling.
+Articulation:
+
+Meaning: Work is partitioned into manageable tasks, and there's effective communication on how these pieces come together.
+Example: Similar to assembling a jigsaw puzzle, where each person focuses on a section with regular communication.
+Appropriation:
+
+Meaning: The team adapts technology or tools to fit the specific needs of the situation.
+Example: Using technology tools that facilitate real-time collaboration, adapted based on the team's preferences.
+Driving Factors:
+
+Clarification of Requirements:
+
+Collaboration helps in better understanding project requirements through constant communication.
+Example: Discussing and clarifying project goals with team members.
+Reduced Need for Change:
+
+Effective collaboration reduces the need for significant changes later in the project.
+Example: Regular communication helps catch potential issues early, avoiding last-minute changes.
+Risk Identification and Mitigation:
+
+Collaboration allows for early identification of risks, enabling proactive risk management.
+Example: Open discussions about potential challenges during collaborative meetings.
+Continual Improvement:
+
+Collaboration fosters an environment of continuous improvement throughout the project.
+Example: Team members sharing feedback in retrospective meetings for ongoing enhancement.
+Colocation Preferred:
+
+Explanation: Colocation, or having team members physically close, is preferred in Scrum for effective and spontaneous communication.
+Benefits: Minimizes communication barriers, enhances team cohesion, and allows for face-to-face interactions, fostering effective teamwork.
+
+4.TIME BOXING : 
+
+The concept of time-boxing in Scrum is essential for maintaining efficiency, reducing overhead, and enhancing team performance. Time-boxing involves setting specific time limits for various Scrum activities to ensure they are focused, productive, and fit within a predetermined timeframe. 
+Time is Valuable in Scrum:
+
+Purpose: In Scrum, time is intentionally limited for various activities to boost efficiency, reduce unnecessary discussions, and help teams perform better.
+
+Benefits:
+
+Efficient Development: Focus on delivering value within a set timeframe.
+Less Overhead: Avoiding unnecessary meetings and discussions.
+Higher Team Performance: Achieving more in less time.
+Scrum Time-Boxes:
+
+Sprint:
+
+Duration: 1-6 weeks.
+Purpose: Core development cycle with regular delivery and adaptation.
+
+Daily Standup Meeting:
+Duration: 15 minutes.
+Purpose: Brief daily meeting for quick progress updates and plans.
+
+Sprint Planning Meeting:
+Duration: 4 hours for a 2-week sprint, 8 hours for a one-month sprint.
+Purpose: Efficiently select tasks for the upcoming sprint.
+
+Sprint Review Meeting:
+Duration: 2 hours for a 2-week sprint, 4 hours for a one-month sprint.
+Purpose: Showcase what was achieved during the sprint and gather feedback.
+
+Retrospect Sprint Meeting:
+Duration: 2 hours for a 2-week sprint, 4 hours for a one-month sprint.
+Purpose: Reflect on the sprint, identify improvements, and plan for the next.
+
+5. Value-Based Prioritization
+
+Ongoing Prioritization:
+Definition: Continuously updating the list of important things based on changing needs or circumstances.
+Prioritized Product Backlog for Sprint Planning:
+
+Definition: Using a structured list to choose and plan what to work on, starting with the most critical items.
+Considerations - Value, Risk, Dependencies:
+
+Value to the Business:
+Definition: Prioritizing items that bring the most benefit or value to the overall goal.
+Risk:
+Definition: Evaluating and addressing potential challenges or uncertainties associated with each item.
+Dependencies:
+Definition: Sequencing tasks based on what relies on others, ensuring a smooth flow.
+Benefits:
+
+Maximizes Business Value:
+Definition: Focusing on tasks that deliver the most significant impact or advantage to the overall objective.
+Risk Mitigation:
+Definition: Identifying and managing potential issues early to prevent disruptions.
+Adaptability to Change:
+Definition: Flexibility in adjusting priorities to respond to evolving circumstances.
+Efficient Resource Utilization:
+Definition: Using resources effectively by concentrating on high-value tasks.
+
+6. ITERATIVE DEVELOPMENT : 
+Iterative Development:
+-> Adapts to changing requirements during the development process.
+-> Breaks development into smaller cycles or iterations.
+-> Delivers high-value features in smaller, incremental releases.
+-> Identifies and addresses risks early in the development cycle.
+-> Acknowledges the dynamic nature of project requirements as "moving targets."
+-> Maintains a constant focus on delivering optimized business value.
+-> Allows for flexibility, early issue identification, and quicker delivery of valuable product increments.
+
+SCRUM ASPECTS: 
+1. Organization:
+Focus: How the Scrum team is structured and organized.
+Key Points:
+Teams are self-organizing, with roles like Scrum Master, Product Owner, and Development Team.
+Collaboration and communication are essential within the team and with external stakeholders.
+The organization should support an environment conducive to Agile and Scrum principles.
+
+2. Business Justification:
+Focus: Ensuring that the work being done has a clear and justifiable purpose.
+Key Points:
+Every project or product increment should have a clear business justification.
+The Product Owner is responsible for articulating and prioritizing work based on business value.
+Regular reviews ensure that the product aligns with business goals.
+
+3. Quality:
+Focus: Maintaining high standards of quality in the delivered product.
+Key Points:
+Quality is a shared responsibility of the entire team.
+Regular testing, reviews, and continuous improvement contribute to product quality.
+The Definition of Done (DoD) sets criteria for what constitutes a completed product increment.
+
+4. Change:
+Focus: Adapting to changes in requirements or priorities.
+Key Points:
+Scrum acknowledges that requirements may change, and the framework is designed to be flexible.
+Changes are expected and should be embraced to maximize customer value.
+Regular feedback loops, such as Sprint Review and Retrospective, facilitate adaptation.
+
+5. Risk:
+Focus: Identifying and mitigating risks throughout the project.
+Key Points:
+Risks are addressed proactively during the development process.
+Regular inspections and adaptations help in risk management.
+Collaboration and communication within the team and with stakeholders contribute to risk mitigation.
+These aspects collectively contribute to the successful implementation of Scrum.
+
+SCRUM PHASES :
+1. Initiate:
+Purpose: Kickstarting the project with a clear understanding of goals.
+Key Actions:
+Form the Scrum Team with roles like Product Owner, Scrum Master, and Development Team.
+Define the project vision and initial product backlog.
+
+2. Plan & Estimate:
+Purpose: Detailed planning for the upcoming work.
+Key Actions:
+Create a detailed plan for the upcoming sprint during Sprint Planning.
+Estimate the effort needed for tasks.
+
+3. Implement:
+Purpose: Actively working on the planned tasks.
+Key Actions:
+Development Team works on tasks in the product backlog during the sprint.
+Regular collaboration and communication within the team.
+
+4. Review & Retrospect:
+Purpose: Evaluate and learn from the completed work.
+Key Actions:
+Sprint Review: Showcase completed work to stakeholders for feedback.
+Retrospective: Reflect on the sprint, identify improvements for the next cycle.
+
+5. Release:
+Purpose: Deliver the completed and potentially shippable product increment.
+Key Actions:
+The product is ready for release if it meets the Definition of Done.
+Stakeholders receive the product increment.
+
+******************************************************************************************
+******************************************************************************************
+
+Create The Project Vision
+
+Trigger:
+A need to transform retail operations.
+
+Incorporated Elements:
+
+Aligns with bigger organizational goals.
+Reflects the organizational mission and vision.
+Built on successful trials and proof of concept activities.
+Informed by comprehensive market studies.
+Scrum Project Objectives:
+
+Customer-Centric Experience
+Agile Operations
+Digital Integration
+Innovation and Adaptability
+Expected Benefits:
+
+Revenue Growth
+Operational Excellence
+Market Leadership
+
+TOOLS : 
+ these tools serve as crucial instruments in the project initiation and planning phases, helping to establish a shared vision, gather requirements collaboratively, assess internal and external factors, and identify gaps between the current and desired states. They contribute to a well-informed and strategic approach to project management.
+
+1. Project Vision Meeting in Simple Terms: Engaging Stakeholders with Scrum
+ Project Vision Meeting in Simple Terms: Engaging Stakeholders with Scrum
+
+Engage Program Stakeholders:
+Gather key people involved in the project to ensure everyone is on the same page.
+
+Identify Business Context:
+Understand the overall business environment and why the project is important.
+
+Expected Outcomes or Benefits:
+Clearly define what the project aims to achieve and the benefits it will bring.
+
+Business Requirements:
+Identify the specific needs and criteria the project must meet to succeed.
+
+Stakeholder Expectations:
+Understand what each stakeholder expects from the project, ensuring their needs are considered.
+
+Scrum's Ongoing Stakeholder Engagement:
+Continuous involvement of stakeholders throughout the project to ensure their input is considered, leading to a more successful and satisfying outcome.
+
+[In a nutshell, a Project Vision Meeting is about getting everyone involved, understanding the project's purpose, defining goals, and ensuring ongoing collaboration for success in a Scrum project.]
+
+2. JAD Sessions Simplified: Gathering Project Requirements with Speed and Agreement
+
+JAD Sessions Simplified: Gathering Project Requirements with Speed and Agreement
+
+Facilitate Requirements Gathering Workshop:
+
+Organize a collaborative session where teams come together to collect and define project requirements.
+Enable Consensus Building on Scope, Objectives, Specifications:
+
+Ensure everyone agrees on the project's boundaries, goals, and specific details, fostering a shared understanding.
+Leverage Agile Techniques:
+
+Use Agile methodologies to:
+Time-Boxing: Set specific time limits for discussions and decision-making.
+Iterative Approaches: Break down complex requirements into smaller, manageable tasks.
+
+[In short, JAD Sessions are about efficient collaboration, quick decision-making, and using Agile techniques to manage time effectively during the requirements gathering process.]
+
+3. SWOT Analysis
+
+4.Gap Analysis
+ -> Look at the current baseline performance or capabilities
+• Identify the future target desired
+• Establish what will be needed to move from A to B
+
+Identify
+• Existing processes
+• Existing business capabilities
+• Processes to obtain the desired outcome
+• Aspirational business capabilities
+• The gap
+Develop
+• The means to fill the gap
+• Prioritized capabilities to fill the gap
+
+[In summary, this process involves understanding the current situation, envisioning the desired future, identifying existing and needed elements, determining the gap, and then developing prioritized strategies to fill that gap.]
+
+**************************************************************************************
+SCRUM MASTER
+The Scrum Master is indeed a servant-leader for the Scrum team. This means that while the Scrum Master provides leadership and guidance to the team, their primary focus is on serving the needs of the team members, facilitating their work, and ensuring they have the support and environment they need to be successful.
+
+• The Scrum Master is the servant leader of the Scrum team
+• Moderates & facilitates team interactions
+• Coach & mentor
+• Works with the team to identify and remove roadblocks
+to the team’s successful performance.
+• Teaches and reinforces Scrum principles
+# Selection criteria include :- 
+– Problem solving skills
+– Availability
+– Commitment
+– Servant Leadership Style
+
+***************************************************************************************
+ the core roles (Product Owner, Scrum Master, Scrum Team) work closely within the Scrum framework, while non-core roles (Customers, Users, Sponsors, Vendors, Scrum Guidance Body) are external entities with interests in the project's success. Each stakeholder category contributes to the project's overall success
+#Core Roles:
+Product Owner:Drives product vision, defines priorities, and represents stakeholders' interests.
+
+Scrum Master:Facilitates team processes, removes impediments, and ensures adherence to Scrum principles.
+
+Scrum Team:Cross-functional group responsible for delivering increments of the product, guided by the Product Owner.
+
+# Non-core roles include
+-> Stakeholders
+    • Customers
+    • Users
+    • Sponsors
+-> Vendors - External entities contributing products, services, or expertise to the project.
+-> Scrum Guidance Body -External group offering guidance on organizational direction, not directly involved in daily Scrum activities.
+
+**************************************************************************************
+
+FORMING A SCRUM TEAM PROCESS : 
+• Next step is team formation.
+• Scrum teams are cross-functional.
+• Key skills:
+    – Independent thinking
+    – Self-motivation
+    – Customer-focused
+    – Responsible
+    – Collaborative
+• Typical Scrum team is 6-10 people
+
+OUTPUTS OF FORMING A SCRUM TEAM : 
+
+Outputs from Forming the Scrum Team in a Nutshell:
+
+Identification of Scrum Team Members:Clearly defined roles and responsibilities for each team member within the Scrum framework.
+
+Back-up Persons:Designation of individuals who can step in if a team member is unavailable, ensuring continuity and resilience.
+
+Collaboration Plan:A detailed plan outlining how the Scrum Team will collaborate, communicate, and share information throughout the project.
+
+Team Building Plan using Tuckman's Model:
+Application of Tuckman's Model stages:
+Forming: Initial stage where team members get acquainted.
+Storming: Period of conflict and adjustment.
+Norming: Establishment of norms and team cohesion.
+Performing: Optimal productivity and collaboration.
+
+Conflict Management: Seeking Win-Win:
+Strategies for managing conflicts within the team with an emphasis on achieving mutually beneficial resolutions.
+
+***************************************************************************************
+DEVELOPING EPICS : 
+ In a simple way, a user story in Agile is like telling a short and clear story about something a user wants to do with a product or service. It helps the team understand what needs to be built from the user's perspective. A user story usually starts with "As a [type of user], I want [to do something] so that [I get some benefit]." It's a way for the team to know what features or improvements are important to users and why.
+• Epics are large high-level unrefined user stories
+    – Desired functionality
+    – Easy to understand
+    – Estimable
+    – Used to craft more detailed user stories
+• Gather requirements in
+    – User Group Meetings
+    – User Story Workshops
+    – Focus Group Meetings
+    – User/Customer Interviews
+    – Questionnaires
+• Used to identify & write customer requirements
+• Help
+    – Formulate acceptance criteria
+    – Product Owner prioritizes requirements
+    – Team identifies and assess risk
+
+# Epics tell a story. What would the customers and users
+like to happen?
+• Personae describe an example bringing the connection
+to life: How would the solution drive value for a specific
+type of stakeholder?
+• For example: Jim is a busy traveling instructor from
+Michigan. He frequently travels to teach Scrum to
+customers across the country. He needs to quickly and
+easily report his expenses to ensure he is reimbursed
+before his credit card bill arrives at the end of the month.
+He gets frustrated when the bill arrives before the money
+does.
+
+#Outputs from Developing Epics
+• Epics
+• Personae
+• Approved Changes
+• Identified Risks
+
+
+# diff between EPIC AND USER STORIES 
+Epics:
+Definition: An Epic is a large, high-level user story that encapsulates a significant chunk of functionality. It is too big to be completed in a single iteration or sprint and serves as a placeholder for a set of smaller, more manageable user stories.
+
+Scope: Epics are broader in scope and often represent entire features or major components of a project.
+
+Timeline: Typically spans multiple iterations or sprints and may take weeks or months to complete.
+
+Example: "User Authentication," "Payment Gateway Integration," or "Mobile App Redesign" could be examples of epics.
+
+User Stories:
+Definition: A User Story is a concise, informal description of a feature or functionality from an end user's perspective. It represents a small, specific piece of work that can be completed in a single iteration.
+
+Scope: User Stories are smaller and represent individual functionalities or features that collectively contribute to the completion of an Epic.
+
+Timeline: Completed within a single iteration or sprint, providing incremental value to the project.
+
+Example: "As a user, I want to be able to search for products easily so that I can quickly find what I'm looking for."
+

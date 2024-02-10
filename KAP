@@ -1,0 +1,113 @@
+to create epic 
+    -> new item 
+    -> tracker(epic)
+    ->subject(add title here for an epic)
+    ->description()
+    -> assign to someone , start date , due date 
+    -> can be edited
+
+to create user story 
+    ->new item
+    -> tracker(user story)
+    -> subject
+    -> description
+    -> assign 
+    -> story point(to define complexity of ur user story)
+    ->create 
+to create a task 
+    create it in the same way
+
+
+# go to items to see ur  epic , userstory,  task 
+# initially no relation exists  between these 3 
+-> to add relation copy the item_id or a text and click on edit then go to  parent task and then paste that id for defining of  relation then SUBMIT 
+
+
+# EPIC(Topmost hierarchy) -> userStory(child of Epic) -> Task(child of userStory)
+why to have realtions ? 
+bcz ur single epic gets divided into multiple user stories and ur single userstories get divided into multiple tasks and these tasks will get assigned to  respective team members 
+
+-------------------------------------------------------------------------------------------
+PROJECT BACKLOG AND SPRINT BACKLOG 
+
+-> go to BACKLOG tab 
+-> since we created a user story we will have a product backlog (As this userstory is not asssociated  with any sprint )
+-> so on the downarrow button in the same tab go to "New sprint"
+-> provide any valid name for sprint -> provide a start date and due date (standard time duration is 2 weeks)
+-> after creating a sprint we need to add user story with it as well 
+    -> 2 ways to do it 
+        1) simply drag and drop . also u can create userStory in Backlog tab only using the downarrow button 
+        2)
+
+-> u can track progress of ur sprint using burndown chart 
+
+-> goto releases tab and create a release .(as soon as a release s created it will be visible in the Backlogs tab)
+
+# User story acts as centralised component where it is bound to have some relation with
+Epic
+Task
+Sprint
+Release
+
+-> so we want to have relation with user story and release 
+-> steps: 
+    -> goto edit for userstory 
+    -> go in releases dropdown and select ur release 
+
+***************************************************************************************
+***************************************************************************************
+KAP.KPIT.com 
+1.primary puropse of KAP is u can plan your project in Agile way 
+2.Not mandatory u should always have the agile planning on kap , u can use it as ticket managment system or project mangement system 
+
+3. Every KPITIAN can access to KAP who has KPIT credentials 
+4. WE need to use username and not email address (only username and password)
+
+#want to  add team members in any project 
+5.If u want to provide access to team members , it can be done 
+    -> it is mandatory that ur team members should login to their KAP.com website before u add  them in any of the project
+6. If u want to add someone who does not have KPIT credentials , yes we can do it 
+    -> we can create their user account into the KAP website on approvals and then we can add them to the project
+
+# what is project in KAp and how to create it 
+
+# how do we reach to the KAP support team > 
+8. whenver we login to KAP there is dedicated KAP support tema link available , this way new ticket can be generated for any query 
+
+9. SETTINGS available in KAP 
+ -> all project level configurations are available in settings tab that needs to be initialized. 
+ -> product manager can have access to  setting tab 
+ -> Developers or QA does not have access to  setting tab
+ -> Modules ( backlog , item ,new items ,gantt ,forums... these all menus are modules )and this modules can be enabled or disabled accordingly in  [settings -> modules ]
+ -> In [setting -> members ] we can add new members just searching through their user name and then roles(defines their power and roles)
+
+ # tasks , userStories , Epic these all are called as  TRACKERS  , at project level that is in settings -> trackers -> (multiple trackers are availaible and can be selected.) 
+
+ # we can have filters to  find items and that filter can be saved as well . 
+ # multiple items can be updated by jsut selecting all and then editing any one all will be updated that is BULK UPDATING 
+ # we can also export the work item in .csv or .pdf file 
+
+-> custome feilds , trackers and workflow is  configurable and available in KAP 
+-> if we want to add some new trackers and its corresponding custom feilds we need to  follow : 
+    ->in menu section -> Documnet tab -> click on "custom feild and workflow template"
+
+->KAP iss integrable with third party applications , its just u need the approval and authorization 
+-> if ur project required any additional MODULES that needs to be integrated then yes it is possible , u can always request through support request .
+-> A single ticket cannot be assigned to multiple assignes "SINGLE TICKET SINGLE ASSIGNE IS THE POLICY ".
+-> multiple members can edit ur ticket details , but everything gets loged in history , u  can check it from  there 
+-> can we create sub-projects in CAP ? 
+yes we can create hierarchy of projects in CAP but only single ROLE is there to which we enable this access for creating sub project 
+    -> Overview -> new SubProject (top right menu bar) 
+
+-> FORUMS used for discussion between team members
+-> all things available in setting is customizable at project level 
+    information ,modules, members, versions, item categories, wiki ,repositories,forums,activities , backlog
+-> KAP documentations is available at Home page
+
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+-> CREATE A NEW REPO 
+New -> create a new project -> blank project -> create ur project 
+
+-> clone 
+click on clone -> clone through https -> terminal -> git clone link 
